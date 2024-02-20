@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links{
+    display: flex;
+    justify-content: flex-end;
+}
+
+div a{
+    margin: 15px 30px 15px 0;
+    color: black;
+    text-decoration: none;
+    height: min-content;
+    font-size: small;
+}
+
+div a:hover{
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+img{
+    width: 272px;
+    display: flex;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+form input{
+    margin: 5px 0;
+    padding: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+form #container{
+    width: 582px;
+    height: 45px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+
+}
+
+#container input{
+    height: 60%;
+    width: 88%;
+    margin: 0;
+    border: none;
+    font-size: 17px;
+}
+
+#container input:focus{
+    outline: none;
+}
+
+#container img{
+    height: 35%;
+    width: auto;
+    margin: 0px 10px 0 12px;
+    opacity: 0.6;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+#buttons input[type=submit]{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin: 25px 10px;
+    cursor: pointer;
+    width: 29%;
+}
+
+#buttons input[type=submit]:hover{
+    border: 1px solid #ccc;
+}
+
+img#img_advanced{
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    margin: 20px 25px;
+}
+
+h1#h1_advanced{
+    color: #d93025;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 35px;
+}
+
+#divider{
+    border-bottom: 1px solid #ebebeb;
+}
+
+form#form_advanced{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 160px 550px;
+    margin-left: 35px;
+    margin-top: 0 !important;
+}
+
+#form_advanced input{
+    border-radius: 0;
+    width: 500px;
+}
+
+#form_advanced label{
+    font-size: small;
+}
+
+#find{
+    margin: 35px 0 0 35px;  
+}
+
+#advanced{
+    background-color: #4d90fe;
+    color: white;
+    width: 130px !important;
+    margin-left: 532px;
+}
